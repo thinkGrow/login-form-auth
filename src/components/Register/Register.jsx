@@ -15,7 +15,7 @@ const Register = () => {
     createUserWithEmailAndPassword(auth, email, password)
       .then((result) => {
         // Signed up
-        const user = result.user;
+        // const user = result.user;
         console.log(result);
         // ...
       })
